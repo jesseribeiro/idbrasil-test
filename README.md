@@ -8,6 +8,16 @@ Retorna uma lista de parcelas com o número da parcela, valor da parcela e a tax
 * Foram implementados testes unitários.
 * Swagger configurado.
 
+## Passos a serem executados na máquina 
+Após acessar a pasta local do projeto
+Compilar maven e executar:
+ - mvn clean install -DskipTests
+ - cd target
+ - java -jar .\idbrasil-0.0.1.jar
+
+## Swagger
+http://localhost:8080/swagger-ui/index.html#
+
 ## endpoint
 /v1/venda/calcular-venda
 
@@ -25,16 +35,7 @@ Retorna uma lista de parcelas com o número da parcela, valor da parcela e a tax
   }
 }
 ```
-## Swagger
-http://localhost:8080/swagger-ui/index.html#
 
 
-## Passos a serem executados na máquina 
-
-Compilar maven e executar:
- - mvn clean install -DskipTests
- - cd target
- - java -jar .\idbrasil-0.0.1.jar
- 
 
 
