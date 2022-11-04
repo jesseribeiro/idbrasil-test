@@ -13,19 +13,29 @@ Retorna uma lista de parcelas com o número da parcela, valor da parcela e a tax
 
 ## JSON request Body
 {
+
   "product": {
+  
     "id": 0,
+    
     "name": "string",
+    
     "price": 0
+  
   },
+  
   "payment": {
+    
     "entry": 0,
+    
     "installments": 0
+  
   }
+
 }
 
 ## Swagger
-http://localhost:8080/swagger-ui/index.html
+http://localhost:8080/swagger-ui/index.html#
 
 
 ## Passos a serem executados na máquina 
