@@ -20,7 +20,7 @@ Comandos para compilar maven e executar:
 http://localhost:8080/swagger-ui/index.html#
 
 ## endpoint
-/v1/venda/calcular-venda
+POST /v1/venda/calcular-venda
 
 ## JSON request Body
 ```json
