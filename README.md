@@ -8,10 +8,10 @@ Retorna uma lista de parcelas com o número da parcela, valor da parcela e a tax
 * Foram implementados testes unitários.
 * Swagger configurado.
 
-# endpoint
+## endpoint
 /v1/venda/calcular-venda
 
-# JSON request Body
+## JSON request Body
 {
   "product": {
     "id": 0,
@@ -24,16 +24,16 @@ Retorna uma lista de parcelas com o número da parcela, valor da parcela e a tax
   }
 }
 
-# Swagger
+## Swagger
 http://localhost:8080/swagger-ui/index.html#
 
 
 ## Passos a serem executados na máquina 
 
-# Backend
- - Compilar maven: mvn clean install -DskipTests
- - Abrir a pasta onde está o jar: cd target
- - Executar: java -jar .\idbrasil-0.0.1.jar
+Compilar maven e executar:
+ - mvn clean install -DskipTests
+ - cd target
+ - java -jar .\idbrasil-0.0.1.jar
  
 
 
