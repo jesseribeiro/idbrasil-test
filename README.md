@@ -9,7 +9,8 @@ Retorna uma lista de parcelas com o número da parcela, valor da parcela e a tax
 * Swagger configurado.
 
 ## Passos a serem executados na máquina 
-Após acessar a pasta local do projeto
+Após acessar a pasta local do projeto,
+
 Compilar maven e executar:
  - mvn clean install -DskipTests
  - cd target
