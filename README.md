@@ -25,7 +25,7 @@ Retorna uma lista de parcelas com o número da parcela, valor da parcela e a tax
 }
 
 ## Swagger
-http://localhost:8080/swagger-ui/index.html#
+http://localhost:8080/swagger-ui/index.html
 
 
 ## Passos a serem executados na máquina 
