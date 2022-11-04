@@ -1,7 +1,5 @@
 package com.teste.idbrasil.controller;
 
-import com.teste.idbrasil.dto.PaymentDTO;
-import com.teste.idbrasil.dto.ProductDTO;
 import com.teste.idbrasil.dto.VendaDTO;
 import com.teste.idbrasil.service.VendaService;
 import lombok.extern.slf4j.Slf4j;
@@ -24,8 +22,8 @@ public class VendaController {
     @Autowired
     VendaService vendaService;
 
-    @PostMapping(path = "/vender")
-    public ResponseEntity vender(@RequestBody @NotNull @Valid VendaDTO dto) {
+    @PostMapping(path = "/calcular-venda")
+    public ResponseEntity calcularVenda(@RequestBody @NotNull @Valid VendaDTO dto) {
         try {
             return ResponseEntity.ok(vendaService.calcularVender(dto.getProduct(), dto.getPayment()));
         } catch (Exception e) {
