@@ -12,28 +12,19 @@ Retorna uma lista de parcelas com o número da parcela, valor da parcela e a tax
 /v1/venda/calcular-venda
 
 ## JSON request Body
+```json
 {
-
   "product": {
-  
     "id": 0,
-    
     "name": "string",
-    
     "price": 0
-  
   },
-  
   "payment": {
-    
     "entry": 0,
-    
     "installments": 0
-  
   }
-
 }
-
+```
 ## Swagger
 http://localhost:8080/swagger-ui/index.html#
 
