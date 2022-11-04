@@ -11,7 +11,7 @@ Retorna uma lista de parcelas com o número da parcela, valor da parcela e a tax
 ## Passos a serem executados na máquina 
 Após acessar a pasta local do projeto,
 
-Compilar maven e executar:
+Comandos para compilar maven e executar:
  - mvn clean install -DskipTests
  - cd target
  - java -jar .\idbrasil-0.0.1.jar
