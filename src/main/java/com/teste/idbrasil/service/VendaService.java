@@ -32,7 +32,7 @@ public class VendaService extends GenericService<VendaBean, VendaRepository> {
     TaxaService taxaService;
 
     @Transactional
-    public ResponseEntity calcularVender(ProductDTO productDTO, PaymentDTO paymentDTO) {
+    public List<InstallmentsDefinitionDTO> calcularVender(ProductDTO productDTO, PaymentDTO paymentDTO) {
 
         if (productDTO == null || paymentDTO == null) {
             throw new DadosInvalidosException();
@@ -72,7 +72,7 @@ public class VendaService extends GenericService<VendaBean, VendaRepository> {
 
         List<InstallmentsDefinitionDTO> listaParcelas = getInstallments(paymentDTO, tax, valorFaltante, valorParcela);
 
-        return ResponseEntity.ok().body(listaParcelas);
+        return listaParcelas;
     }
 
     private static List<InstallmentsDefinitionDTO> getInstallments(PaymentDTO paymentDTO, BigDecimal tax, BigDecimal valorFaltante, BigDecimal valorParcela) {
