@@ -1,7 +1,9 @@
 # B2ML
 
 Foi proposta criar um endpoint que receba dados de um produto e seu valor.
+
 Faz a consulta na API taxa Selic e retorna uma lista de taxas do último mês.
+
 Retorna uma lista de parcelas com o número da parcela, valor da parcela e a taxa a ser implicada.
 
 * Não é necessário banco de dados.
