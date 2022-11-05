@@ -1,4 +1,4 @@
-# idbrasil-test
+# B2ML
 
 Foi proposta criar um endpoint que receba dados de um produto e seu valor.
 Faz a consulta na API taxa Selic e retorna uma lista de taxas do último mês.
